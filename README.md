@@ -89,6 +89,8 @@ For Windows (NOT subsystem):
 
 After the NSCF calculation, one needs to call LOPOSTER again (this time without any argument) for postprocessing.
 
+Please note that this "kspace" argument is only used for preproceesing of kspaceCOHP and/or fatband. For postprocessing, please directly execute LOPOSTER.
+
 If you find any bugs or malfunctions, please feel free to reach out to me and I will try my best to fix the problems ASAP.
 
 ## Control the x axis
